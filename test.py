@@ -143,14 +143,14 @@ def main():
     pool.close()
     pool.join()
 
+
+
 # def main():
 #     last_page = get_last_page(first_page)
 #
 #     # 顺序爬取所有页
 #     for page in range(170, last_page + 1):
 #         get_page(page)
-
-
 if __name__ == '__main__':
     if not os.path.exists('result'):
         os.mkdir('result')
